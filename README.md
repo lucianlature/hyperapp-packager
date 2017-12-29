@@ -1,2 +1,4 @@
+[![Build Status](https://travis-ci.org/lucianlature/hyperapp-packager.svg?branch=master)](https://travis-ci.org/lucianlature/hyperapp-packager)
+
 # hyperapp-packager
-Hyperapp Parcel Boilerplate
+[HyperApp](https://github.com/hyperapp/hyperapp) Parcel Boilerplate
