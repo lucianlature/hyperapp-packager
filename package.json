@@ -19,7 +19,12 @@
   "homepage": "https://github.com/lucianlature/hyperapp-packager#readme",
   "devDependencies": {
     "babel-preset-env": "^1.6.1",
-    "eslint": "^4.14.0"
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.4.0",
+    "prettier": "1.9.2",
+    "prettier-eslint": "^8.7.0"
   },
   "dependencies": {
     "hyperapp": "^1.0.0"
