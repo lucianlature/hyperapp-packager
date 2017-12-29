@@ -6,7 +6,7 @@
   "scripts": {
     "build": "parcel build index.html",
     "wipe": "rm -rf .git && git init && git add . && git commit -m 'initial commit'",
-    "test": "echo 'FOR TRAVIS CI' && npm run build && rm bundle.css bundle.js && echo 'SUCCESS!'"
+    "test": "echo 'FOR TRAVIS CI' && npm run build && rm -rf dist && echo 'SUCCESS!'"
   },
   "repository": {
     "type": "git",
