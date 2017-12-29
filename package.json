@@ -1,0 +1,26 @@
+{
+  "name": "hyperapp-packager",
+  "version": "1.0.0",
+  "description": "Hyperapp Parcel Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucianlature/hyperapp-packager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucianlature/hyperapp-packager/issues"
+  },
+  "homepage": "https://github.com/lucianlature/hyperapp-packager#readme",
+  "devDependencies": {
+    "eslint": "^4.14.0"
+  },
+  "dependencies": {
+    "hyperapp": "^1.0.0"
+  }
+}
