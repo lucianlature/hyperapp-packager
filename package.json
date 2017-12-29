@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/lucianlature/hyperapp-packager#readme",
   "devDependencies": {
+    "babel-preset-env": "^1.6.1",
     "eslint": "^4.14.0"
   },
   "dependencies": {
