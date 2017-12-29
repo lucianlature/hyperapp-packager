@@ -4,7 +4,9 @@
   "description": "Hyperapp Parcel Boilerplate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build index.html",
+    "wipe": "rm -rf .git && git init && git add . && git commit -m 'initial commit'",
+    "test": "echo 'FOR TRAVIS CI' && npm run build && rm bundle.css bundle.js && echo 'SUCCESS!'"
   },
   "repository": {
     "type": "git",
@@ -18,9 +20,9 @@
   },
   "homepage": "https://github.com/lucianlature/hyperapp-packager#readme",
   "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.6.1",
     "eslint": "^4.14.0",
-    "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-prettier": "^2.4.0",
     "prettier": "1.9.2",
